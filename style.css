@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ff608c;
+  transition: background-color 0.5s ease;
+  overflow: hidden;
+}
+
+body,
+a {
+  color: rgb(37, 29, 32);
+}
+
+a,
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+p.active {
+  font-weight: 700;
+}
+
+.fixed-content {
+  z-index: 2;
+  position: fixed;
+}
+.fixed-content#logo {
+  top: 20px;
+  left: 20px;
+  width: 260px;
+}
+.fixed-content#intro {
+  bottom: 20px;
+  left: 20px;
+  max-width: 320px;
+  width: 80vw;
+}
+.fixed-content#intro h2 {
+  margin-bottom: 25px;
+}
+.fixed-content#intro a {
+  text-decoration: underline;
+}
+.fixed-content#contact {
+  top: 20px;
+  right: 20px;
+}
+.fixed-content#menu {
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.fixed-content#menu p {
+  cursor: pointer;
+}
+
+.issue {
+  z-index: 1;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.issue img {
+  max-width: 420px;
+  width: 80vw;
+}/*# sourceMappingURL=style.css.map */
