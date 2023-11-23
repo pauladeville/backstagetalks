@@ -35,6 +35,15 @@ p.active {
   font-weight: 700;
 }
 
+@media screen and (max-width: 900px) {
+  a,
+  p,
+  h2 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
 .fixed-content {
   z-index: 2;
   position: fixed;
@@ -60,6 +69,12 @@ p.active {
   top: 20px;
   right: 20px;
 }
+@media screen and (max-width: 900px) {
+  .fixed-content#contact {
+    left: 20px;
+    top: 60px;
+  }
+}
 .fixed-content#menu {
   bottom: 20px;
   right: 20px;
@@ -82,4 +97,11 @@ p.active {
 .issue img {
   max-width: 420px;
   width: 80vw;
+}
+@media screen and (max-width: 900px) {
+  .issue img {
+    width: auto;
+    max-height: 50vh;
+    z-index: 5;
+  }
 }/*# sourceMappingURL=style.css.map */
